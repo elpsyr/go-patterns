@@ -3,10 +3,7 @@ package facade
 import "fmt"
 
 func NewAPI() API {
-	return &apiImpl{
-		//a: NewAModuleAPI(),
-		//b: NewBModuleAPI(),
-	}
+	return &apiImpl{}
 
 }
 
